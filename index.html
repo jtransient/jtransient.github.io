@@ -262,6 +262,172 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/09/离散数学/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="mc">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/headerxxx.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mc的记事本">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/01/09/离散数学/" itemprop="url">离散数学</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-09T19:23:32+08:00">
+                2019-01-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/01/09/离散数学/" class="leancloud_visitors" data-flag-title="离散数学">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="代数系统简介"><a href="#代数系统简介" class="headerlink" title="代数系统简介"></a>代数系统简介</h1><h2 id="9-1-二元运算及其性质"><a href="#9-1-二元运算及其性质" class="headerlink" title="9.1  二元运算及其性质"></a>9.1  二元运算及其性质</h2><p>定义9.1</p>
+<p>​    设$S$为集合,函数$f：S×S→S$称为$S$上的一个二元运算,简称为二元运算。</p>
+<p>​    验证一个运算是否为集合$S$上的二元运算主要考虑两点： </p>
+<p>　        (1)    $S$中任何两个元素（包含相同的两个元素）都可以进行这种运算,运算的结果是唯一的。</p>
+<p>​        (2)    $S$中任何两个元素的运算结果都属于$S$,即$S$对该运算是封闭的。</p>
+<p>​    算符：可以用$\circ, *,\bullet $等符号表示二元或一元运算,称为算符。对于二元运算$\circ $,如果$x$与$y$运算得到$z$,记做$x\circ y =z$；对于一元运算，$x$的运算结果记作$x$. </p>
+<p>定义9.2</p>
+<p>​    设$S$为集合，$n$为正整数，则函数$f：S×S×…×S→S$称为$S$上的一个$n$元运算,简称为$n$元运算。</p>
+<p>定义9.3</p>
+<p>​    设为$S$上的二元运算,</p>
+<p>​    (1)    如果对于任意的$x,y\in S$,有$x<em>y =y</em>x$,则称运算$*$在$S$上满足交换律。</p>
+<p>​    (2)    如果对于任意的$x, y,z\in S$有$ (x<em>y)</em>z = x<em>(y</em>z)$,则称运算在$S$上满足结合律。</p>
+<p>​    (3)    如果对于任意的$x\in S$有$x*x=x$,则称运算在$S$上满足幂等律。,也可以说$S$中的全体元素都是幂等元。</p>
+<p> 定义9.4 </p>
+<p>​    设$\circ $和$*$为$S$上两个不同的二元运算,如果对于任意的$x,y,z\in S$有</p>
+<p>​        <script type="math/tex">x * ( y \circ z) = (x * y) \circ (x * z)</script></p>
+<p>​        <script type="math/tex">( y \circ z) * x = (y * x) \circ (z * x)</script></p>
+<p>​    则称$<em>$对$ \circ $是可分配的，也称$</em>$对$ \circ $满足分配律。</p>
+<p>定义9.5</p>
+<p>​    如果$\circ$和$*$是$S$上的两个可交换的二元运算,如果对于任意的$x,y\in S$有</p>
+<p>​        <script type="math/tex">x * (x \circ y)=x</script>，</p>
+<p>​        <script type="math/tex">x\circ(x * y)=x</script>，</p>
+<p>​    则称$\circ$和$*$满足吸收律。 </p>
+<p>定义9.6</p>
+<p>​    设$\circ$为$S$上的二元运算</p>
+<p>​    （1）若存在元素$e_l$（或$e_r$)$\in S$使得对任何$x\in S$都有</p>
+<p>​            $ e_l \circ x  = x$ (或 $x \circ e_r = x$)</p>
+<p>​        则称$e_l$(或$e_r$)是$S$中关于运算的一个左幺元(或右幺元).若$e\in S$关于$\circ$ 既是左幺元,又是右幺元,则称$e$为$S$上关于运算$\circ$的幺元.</p>
+<p>​    （2）若存在元素$\theta_l$（或$\theta_r$)$\in S$使得对任何$x\in S$都有</p>
+<p>​            $ \theta_l \circ x  =\theta_l $ (或 $x \circ \theta_r = \theta_r$)</p>
+<p>​        则称$\theta_l $(或$\theta _r$)是$S$中关于运算的一个左零元(或右零元).若$\theta\in S$关于$\circ$ 既是左零元,又是右零元,则称$\theta$为$S$上    关于运算$\circ$的零元.</p>
+<p>​    （3）$e\in S $为运算$\circ$的幺元.对于任意的$x\in S$,如果存在$y_l\in S$(或$y_r \in S$)使得</p>
+<p>​                $ y_l \circ x  = e$ (或 $x \circ y_r = e$)</p>
+<p>​        则称$y_l$(或$y_r$)是$x$的左(或右)逆元.若$y\in S$既是$x$的左逆元,又是$x$的右逆元,则称$y$是$x$的逆元.</p>
+<p>定理9.1</p>
+<p>​    </p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/04/first/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
@@ -435,7 +601,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
