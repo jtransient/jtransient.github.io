@@ -344,42 +344,66 @@
       
         
           
-            <h1 id="代数系统简介"><a href="#代数系统简介" class="headerlink" title="代数系统简介"></a>代数系统简介</h1><h2 id="9-1-二元运算及其性质"><a href="#9-1-二元运算及其性质" class="headerlink" title="9.1  二元运算及其性质"></a>9.1  二元运算及其性质</h2><p>定义9.1</p>
+            <h1 id="代数系统简介"><a href="#代数系统简介" class="headerlink" title="代数系统简介"></a>代数系统简介</h1><h2 id="9-1-二元运算及其性质"><a href="#9-1-二元运算及其性质" class="headerlink" title="9.1  二元运算及其性质"></a>9.1  二元运算及其性质</h2><p><strong>定义9.1</strong></p>
 <p>​    设$S$为集合,函数$f：S×S→S$称为$S$上的一个二元运算,简称为二元运算。</p>
 <p>​    验证一个运算是否为集合$S$上的二元运算主要考虑两点： </p>
-<p>　        (1)    $S$中任何两个元素（包含相同的两个元素）都可以进行这种运算,运算的结果是唯一的。</p>
-<p>​        (2)    $S$中任何两个元素的运算结果都属于$S$,即$S$对该运算是封闭的。</p>
-<p>​    算符：可以用$\circ, *,\bullet $等符号表示二元或一元运算,称为算符。对于二元运算$\circ $,如果$x$与$y$运算得到$z$,记做$x\circ y =z$；对于一元运算，$x$的运算结果记作$x$. </p>
-<p>定义9.2</p>
+<p>　    (1)    $S$中任何两个元素（包含相同的两个元素）都可以进行这种运算,运算的结果是唯一的。</p>
+<p>​    (2)    $S$中任何两个元素的运算结果都属于$S$,即$S$对该运算是封闭的。</p>
+<p>​    算符：可以用$\circ, *,\bullet $等符号表示二元或一元运算,称为算符。</p>
+<p><strong>定义9.2</strong></p>
 <p>​    设$S$为集合，$n$为正整数，则函数$f：S×S×…×S→S$称为$S$上的一个$n$元运算,简称为$n$元运算。</p>
-<p>定义9.3</p>
+<p><strong>定义9.3</strong></p>
 <p>​    设为$S$上的二元运算,</p>
-<p>​    (1)    如果对于任意的$x,y\in S$,有$ x\circ y =y \circ x $,则称运算$ \circ $在$S$上满足交换律。</p>
+<p>​    (1)    如果对于任意的$x,y\in S$,有$ x\circ y =y \circ x $​,则称运算$ \circ $在$S$上满足交换律。</p>
 <p>​    (2)    如果对于任意的$x, y,z\in S$有$ (x \circ y) \circ z = x \circ (y \circ z) $,则称运算$ \circ $在$S$上满足结合律。</p>
 <p>​    (3)    如果对于任意的$x\in S$有$x\circ x=x$,则称运算在$S$上满足幂等律。也可以说$S$中的全体元素都是幂等元。</p>
-<p> 定义9.4 </p>
+<p><strong>定义9.4</strong></p>
 <p>​    设$ \circ $和$*$为$S$上两个不同的二元运算,如果对于任意的$x,y,z\in S$有</p>
-<p>​        <script type="math/tex">x * ( y \circ z) = (x * y) \circ (x * z)</script></p>
-<p>​        <script type="math/tex">( y \circ z) * x = (y * x) \circ (z * x)</script></p>
+<p>​            <script type="math/tex">x * ( y \circ z) = (x * y) \circ (x * z)</script></p>
+<p>​            <script type="math/tex">( y \circ z) * x = (y * x) \circ (z * x)</script></p>
 <p>​    则称$ <em> $对$ \circ $是可分配的，也称$ </em> $对$ \circ $满足分配律。</p>
-<p>定义9.5</p>
+<p><strong>定义9.5</strong></p>
 <p>​    如果$\circ$和$ * $是$S$上的两个可交换的二元运算,如果对于任意的$x,y\in S$有</p>
-<p>​        <script type="math/tex">x * (x \circ y)=x</script>，</p>
-<p>​        <script type="math/tex">x\circ(x * y)=x</script>，</p>
+<p>​            <script type="math/tex">x * (x \circ y)=x</script>，</p>
+<p>​            <script type="math/tex">x\circ(x * y)=x</script>，</p>
 <p>​    则称$\circ$和$ * $满足吸收律。 </p>
-<p>定义9.6</p>
+<p><strong>定义9.6</strong></p>
 <p>​    设$\circ$为$S$上的二元运算</p>
-<p>​    （1）若存在元素$e_l$（或$e_r$)$\in S$使得对任何$x\in S$都有</p>
+<p>​    (1)    若存在元素$e_l$（或$e_r$)$\in S$使得对任何$x\in S$都有</p>
 <p>​            $ e_l \circ x  = x$ (或 $x \circ e_r = x$)</p>
 <p>​        则称$e_l$(或$e_r$)是$S$中关于运算的一个左幺元(或右幺元).若$e\in S$关于$\circ$ 既是左幺元,又是右幺元,则称$e$为$S$上关于运算$\circ$的幺元.</p>
-<p>​    （2）若存在元素$\theta_l$（或$\theta_r$)$\in S$使得对任何$x\in S$都有</p>
+<p>​    (2)    若存在元素$\theta_l$（或$\theta_r$)$\in S$使得对任何$x\in S$都有</p>
 <p>​            $ \theta_l \circ x  =\theta_l $ (或 $x \circ \theta_r = \theta_r$)</p>
 <p>​        则称$\theta_l $(或$\theta _r$)是$S$中关于运算的一个左零元(或右零元).若$\theta\in S$关于$\circ$ 既是左零元,又是右零元,则称$\theta$为$S$上    关于运算$\circ$的零元.</p>
-<p>​    （3）$e\in S $为运算$\circ$的幺元.对于任意的$x\in S$,如果存在$y_l\in S$(或$y_r \in S$)使得</p>
-<p>​                $ y_l \circ x  = e$ (或 $x \circ y_r = e$)</p>
+<p>​    (3)    $e\in S $为运算$\circ$的幺元.对于任意的$x\in S$,如果存在$y_l\in S$(或$y_r \in S$)使得</p>
+<p>​            $ y_l \circ x  = e$ (或 $x \circ y_r = e$)</p>
 <p>​        则称$y_l$(或$y_r$)是$x$的左(或右)逆元.若$y\in S$既是$x$的左逆元,又是$x$的右逆元,则称$y$是$x$的逆元.</p>
-<p>定理9.1</p>
-<p>​    </p>
+<p><strong>定理9.1</strong></p>
+<p>​    设$ \circ $为$S$上的二元运算,$e_l,e_r$分别为运算$\circ$的左幺元和右幺元,则有</p>
+<p>​            $e_l = e_r=e.$</p>
+<p>​    且$e$为$S$上关于运算$\circ$的唯一的幺元.</p>
+<p><strong>定理9.2</strong></p>
+<p>​    设$ \circ $为$S$上的二元运算,$\theta_l,\theta_r$分别为运算$\circ$的左零元和右零元,则有</p>
+<p>​            $ \theta_l = \theta_r=\theta. $</p>
+<p>​    且$\theta$为$S$上关于运算$\circ$的唯一的零元.</p>
+<p><strong>定理9.3</strong></p>
+<p>​    设$ \circ $为$S$上可结合的二元运算,$e$为运算$\circ$的幺元,对于$x\in S$如果存在左逆元$y_l$和右逆元$y_r$,则有</p>
+<p>​            $y_l = y_r = y,$</p>
+<p>​    且$y$为$x$上关于运算$\circ$的唯一的逆元.</p>
+<p><strong>定义9.7</strong></p>
+<p>​    设$\circ$为$S$上的二元运算,如果对任意的$x,y,z\in S$满足以下条件:</p>
+<p>​    (1)    若$x\circ y = x\circ z $且$x$不是零元,则$ y=z $;</p>
+<p>​    (2)    若$y\circ x = z\circ x $且$x$不是零元,则$y=z$.</p>
+<p>​    就称运算$\circ$满足消去律.</p>
+<h2 id="9-2-代数系统"><a href="#9-2-代数系统" class="headerlink" title="9.2  代数系统"></a>9.2  代数系统</h2><p><strong>定义9.8</strong></p>
+<p>​    非空集合$S$和$S$上$k$个运算$f_1,f_2,…,f_k$(其中 $f_i$ 为$n_i$元运算,($i=1,2,…,k$)组成的系统称为一个代数系统,简称代数,记做$<s,f_1,f_2,…,f_k>$。在某些代数系统中对于给定的二元运算存在幺元或零元,并且它们对该系统的性质起着重要作用.称之为该系统的特异元素(代数常数).</s,f_1,f_2,…,f_k></p>
+<p><strong>定义9.9</strong></p>
+<p>​     设$V=<s,f_1,f_2,…,f_k>$是代数系统,$B\subseteq S$且$B\neq \O $,如果$B$对$f_1,f_2,…,f_k$都是封闭的,且$B$和$S$含有相同的代数常数,则称$<b,f_1,f_2,…,f_k>$是$V$的子代数系统,简称子代数。</b,f_1,f_2,…,f_k></s,f_1,f_2,…,f_k></p>
+<p>​    最大和最小的子代数称为$V$的平凡的子代数。若$V$的子代数$V^{‘} = <b,f_1,f_2,…,f_k> $满足$B\sub S$,则称$V^{‘}$是$V$的真子代数。</b,f_1,f_2,…,f_k></p>
+<p><strong>定义9.10</strong></p>
+<p>​    设$V_1=<s_1,\circ>,V_2=<s_2, *="">$是代数系统,$\circ$和$ * $为二元运算.$V_1$和$V_2$的积代数$V_1\times V_2$是含有一个二元运算的代数系统,即$V_1 \times V_2=<s,\bullet>$,其中$S=S_1\times S_2$,且对任意$<x_1,y_1>,<x_2,y_2>\in S_1\times S_2$有</x_2,y_2></x_1,y_1></s,\bullet></s_2,></s_1,\circ></p>
+<p>​            $<x_1,y_1>\bullet <x_2,y_2> = <x_1\circ x_2,y_1*="" y_2="">$</x_1\circ></x_2,y_2></x_1,y_1></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">    c1--&gt;a2</span><br><span class="line">    subgraph one</span><br><span class="line">    a1--&gt;a2</span><br><span class="line">    end</span><br><span class="line">    subgraph two</span><br><span class="line">    b1--&gt;b2</span><br><span class="line">    end</span><br><span class="line">    subgraph three</span><br><span class="line">    c1--&gt;c2</span><br><span class="line">    end</span><br></pre></td></tr></table></figure>
 
           
         
@@ -614,7 +638,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
